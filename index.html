@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>刘婕 - 个人简历</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", "SimSun", sans-serif;
+        }
+        
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #4a90e2;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .title {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+        }
+        
+        .contact-item i {
+            margin-right: 5px;
+            color: #4a90e2;
+        }
+        
+        section {
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        
+        .section-content {
+            padding-left: 20px;
+        }
+        
+        .education-item, .experience-item {
+            margin-bottom: 20px;
+        }
+        
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        
+        .item-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        
+        .item-date {
+            color: #7f8c8d;
+        }
+        
+        .item-subtitle {
+            font-style: italic;
+            color: #4a90e2;
+            margin-bottom: 10px;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .skill {
+            background-color: #ecf0f1;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 0.9rem;
+        }
+        
+        .project-item {
+            margin-bottom: 15px;
+        }
+        
+        .project-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .project-desc {
+            margin-bottom: 5px;
+        }
+        
+        .project-tech {
+            font-size: 0.9rem;
+            color: #7f8c8d;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ecf0f1;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .item-header {
+                flex-direction: column;
+            }
+            
+            .item-date {
+                margin-top: 5px;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>刘婕</h1>
+            <div class="title">信息管理专业 | 华中师范大学</div>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>138-XXXX-XXXX</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>liujie@mails.ccnu.edu.cn</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>湖北省武汉市</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <span>github.com/liujie</span>
+                </div>
+            </div>
+        </header>
+        
+        <section>
+            <h2>个人简介</h2>
+            <div class="section-content">
+                <p>华中师范大学信息管理学院信息管理与信息系统专业在读学生，主修数据分析与信息系统开发方向。具备扎实的编程基础和数据分析能力，熟悉Python、Java等编程语言及SQL数据库操作。对大数据技术、人工智能应用有浓厚兴趣，曾参与多个信息系统开发项目。</p>
+            </div>
+        </section>
+        
+        <section>
+            <h2>教育背景</h2>
+            <div class="section-content">
+                <div class="education-item">
+                    <div class="item-header">
+                        <div class="item-title">华中师范大学</div>
+                        <div class="item-date">2022.09 - 2026.06</div>
+                    </div>
+                    <div class="item-subtitle">信息管理学院 | 信息管理与信息系统专业 | 本科</div>
+                    <ul>
+                        <li>GPA: 3.7/4.0 (专业前15%)</li>
+                        <li>主修课程: 数据结构与算法、数据库系统原理、管理信息系统、Python程序设计、大数据技术基础、机器学习基础</li>
+                        <li>荣誉: 校级二等奖学金(2023)、信息管理学院优秀学生干部(2024)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>专业技能</h2>
+            <div class="section-content">
+                <div class="skills">
+                    <div class="skill">Python</div>
+                    <div class="skill">Java</div>
+                    <div class="skill">SQL</div>
+                    <div class="skill">HTML/CSS</div>
+                    <div class="skill">JavaScript</div>
+                    <div class="skill">R语言</div>
+                    <div class="skill">数据分析</div>
+                    <div class="skill">机器学习</div>
+                    <div class="skill">Tableau</div>
+                    <div class="skill">Power BI</div>
+                    <div class="skill">Excel高级应用</div>
+                    <div class="skill">信息系统设计</div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>项目经验</h2>
+            <div class="section-content">
+                <div class="project-item">
+                    <div class="project-title">图书馆智能推荐系统 (2024.03 - 2024.06)</div>
+                    <div class="project-desc">基于协同过滤算法和用户借阅历史数据，开发图书馆图书推荐系统，提高图书借阅率30%</div>
+                    <div class="project-tech">技术栈: Python, Django, MySQL, 协同过滤算法</div>
+                </div>
+                
+                <div class="project-item">
+                    <div class="project-title">校园二手交易平台 (2023.09 - 2023.12)</div>
+                    <div class="project-desc">设计并实现校园内二手商品交易Web平台，包含用户认证、商品发布、搜索和交易功能</div>
+                    <div class="project-tech">技术栈: Java, Spring Boot, Vue.js, MySQL</div>
+                </div>
+                
+                <div class="project-item">
+                    <div class="project-title">电商用户行为分析 (2023.03 - 2023.05)</div>
+                    <div class="project-desc">使用Python对电商平台用户行为数据进行清洗、分析和可视化，识别用户购买模式</div>
+                    <div class="project-tech">技术栈: Python, Pandas, Matplotlib, Seaborn</div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>实习经历</h2>
+            <div class="section-content">
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div class="item-title">数据分析实习生 | 武汉数智科技有限公司</div>
+                        <div class="item-date">2024.07 - 2024.09</div>
+                    </div>
+                    <ul>
+                        <li>参与客户行为数据分析项目，使用SQL和Python处理超过100万条用户数据</li>
+                        <li>开发自动化数据清洗脚本，将数据处理时间从8小时缩短至30分钟</li>
+                        <li>使用Tableau制作数据可视化报表，协助团队识别关键业务指标</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div class="item-title">信息系统助理 | 华中师范大学图书馆</div>
+                        <div class="item-date">2023.06 - 2023.08</div>
+                    </div>
+                    <ul>
+                        <li>协助维护图书馆管理系统，处理系统日常问题和用户反馈</li>
+                        <li>参与图书馆数字资源使用情况的数据收集和分析工作</li>
+                        <li>设计并实施图书馆微信小程序借阅提醒功能</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>证书与荣誉</h2>
+            <div class="section-content">
+                <ul>
+                    <li>全国计算机等级考试三级数据库技术证书 (2024)</li>
+                    <li>Python数据分析师(初级)认证 (2023)</li>
+                    <li>华中师范大学"互联网+"大学生创新创业大赛二等奖 (2023)</li>
+                    <li>信息管理学院程序设计竞赛三等奖 (2022)</li>
+                </ul>
+            </div>
+        </section>
+        
+        <footer>
+            <p>最后更新: 2025年10月 | 本简历使用HTML/CSS制作</p>
+        </footer>
+    </div>
+</body>
+</html>
